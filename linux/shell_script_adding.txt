@@ -1,0 +1,11 @@
+#!/bin/bash
+read -p "number1: " NUM1
+read -p "number2: " NUM2
+
+echo $(($NUM1+$NUM2))   
+echo $(($NUM1-$NUM2))   
+echo $(($NUM1*$NUM2))   
+echo $(($NUM1/$NUM2))   
+echo $(($NUM1%$NUM2))
+echo $(($NUM1**$NUM2))          
+

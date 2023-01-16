@@ -1,0 +1,13 @@
+#!/bin/bash
+read -p "number1: " NUM1
+read -p "number2: " NUM2
+
+echo `echo $NUM1+$NUM2|bc`
+echo `echo $NUM1-$NUM2|bc`
+echo `echo $NUM1*$NUM2|bc`
+echo `echo $NUM1/$NUM2|bc`
+echo `echo $NUM1%$NUM2|bc`
+k=`expr $NUM1**$NUM2|bc`
+echo $k
+
+~             
